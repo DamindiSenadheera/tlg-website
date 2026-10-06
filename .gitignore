@@ -1,0 +1,13 @@
+# Dependencies and generated build output
+**/node_modules/
+**/dist/
+
+# Local editor and tool settings
+.vscode/
+.claude/
+
+# Logs and environment-specific secrets
+*.log
+.env
+.env.*
+!.env.example

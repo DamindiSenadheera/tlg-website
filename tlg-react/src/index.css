@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #efefef;
+  --color-foreground: #212121;
+  --color-card: #ffffff;
+  --color-card-foreground: #212121;
+  --color-muted-foreground: #52666a;
+  --color-primary: #00727e;
+}
+
+@layer base {
+  * {
+    border-color: color-mix(in srgb, var(--color-primary) 28%, transparent);
+  }
+
+  body {
+    background: var(--color-background);
+    color: var(--color-foreground);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}
